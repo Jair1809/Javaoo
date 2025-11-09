@@ -171,8 +171,7 @@ Valores alterados do Produto 2:
 Novo Preço: 950.0
 Novo Estoque: 12
 
-Tentando alterar para um valor inválido (preço negativo)...
-Falha esperada ao alterar: O preço não pode ser negativo.
+
 ```
 
 ---
@@ -311,9 +310,7 @@ Preço do produto permanece: 1700.0
 
 ----------------------------------------
 
-Tentando aplicar desconto de -10%...
-Falha esperada: A porcentagem de desconto deve estar entre 0 e 50.
-Preço do produto permanece: 1700.0
+
 ```
 
 ---
@@ -462,8 +459,7 @@ Bônus: 550.0000
 
 ----------------------------------------
 
-Tentando criar funcionário com salário negativo...
-Falha esperada: O salário deve ser positivo.
+
 ```
 
 ---
@@ -876,8 +872,7 @@ Pagamento concluído com sucesso.
 
 ----------------------------------------
 
-Tentando processar pagamento com Pix
-Falha no pagamento: Chave PIX inválida.
+
 ```
 
 ---
@@ -1227,8 +1222,7 @@ Total: BRL 255.85
 5. Tentando adicionar item com quantidade zero...
 Falha esperada: A quantidade deve ser maior que zero.
 
-Tentando criar cupom com desconto de 40%...
-Falha esperada: A porcentagem de desconto do cupom deve estar entre 0 e 30.
+
 ```
 
 ---
@@ -1484,8 +1478,7 @@ Listando todos os funcionários:
 Funcionario{id=101, nome='Maria', salario=7000.0}
 Funcionario{id=102, nome='Pedro', salario=4500.0}
 
-Buscando funcionário com ID 102:
-Encontrado: Funcionario{id=102, nome='Pedro', salario=4500.0}
+
 ```
 
 ---
@@ -1689,6 +1682,5 @@ Valor do frete (Promocional): R$ 0.00
 
 ----------------------------------------
 
-Tentando calcular com CEP inválido...
-Falha ao calcular frete (Sedex com CEP inválido): CEP inválido: ABC
+
 ```
